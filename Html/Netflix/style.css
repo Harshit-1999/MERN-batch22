@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 7px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.languge {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+/* This is Main containt */
+
+.header-containt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.header-containt h1 {
+
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-containt h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    background-color: transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+
+
+
+}
+
+.email-form input {
+    height: 58px;
+    width: 70%;
+    padding-left: 90px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.email-form button {
+    background-color: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.container {
+    height: 350px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 100px;
+
+}
+
+.secation-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 200px;
+}
+
+.silder {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    width: 1500px;
+}
+
+.silder::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 200px;
+    height: 280px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    overflow: visible;
+    padding: 15px 10px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 10;
+
+}
+
+.number {
+    position: absolute;
+    bottom: 15px;
+    left: -15px;
+    font-size: 75px;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-weight: bold;
+}
+
+
+.container2 {
+    margin-top: 30px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 100px;
+    height: 380px;
+    width: 80vw;
+    overflow: hidden;
+
+}
+
+.section {
+
+    display: flex;
+    gap: 10px;
+    height: 300px;
+    width: 75vw;
+
+
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.card2 {
+
+    height: 320px;
+    width: 40vw;
+    flex: 10px 10px 10px 10px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #1e1e3f 50%, #220222 100%);
+
+}
+
+.card2 h3 {
+    font-size: 1.3rem;
+}
+
+.card2 p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+
+.small-img {
+    position: relative;
+    left: 100px;
+    top: 20px;
+    margin-top: 76px;
+    margin-left: 60px;
+}
+
+
+.container3 {
+
+    margin-top: 30px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 100px;
+    height: 550px;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.qustion-box {
+    background-color: #2d2d2d;
+    width: 75vw;
+    margin: 10px auto;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 22px;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+.faq2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.qustion-box:hover {
+    background-color: #4d4d4d;
+}
+
+.last-container {
+    margin-top: -30px;
+    margin-left: 18vw;
+    margin-right: 12vw;
+    margin-bottom: 100px;
+    height: 100x;
+    width: 80vw;
+}
+
+footer {
+    margin-top: 30px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    height: 650px;
+    width: 75vw;
+}
+
+.call {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.call a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-gride {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 25px;
+}
+
+a {
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 30px;
+    width: 100px;
+
+}
+
+#ret {
+    color: blue;
+}
+
+.Btr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    width: 70%;
+    position: absolute;
+    margin-Left: 280px;
+
+}
+
+.container-section {
+    height: 280px;
+    width: 250px;
+  background: linear-gradient(180deg, #1e1e3f 50%, #220222 100%);
+    border-radius: 20px;
+    overflow: none;
+}
+
+.paragraph1 {
+    margin-top: 20px;
+
+}
+
+#img11 {
+    margin: 40px;
+
+}
