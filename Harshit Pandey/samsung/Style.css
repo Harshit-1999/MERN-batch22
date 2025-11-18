@@ -1,0 +1,134 @@
+
+*{
+    padding:0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  
+    display: flex;
+    height: 60px;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.logo{
+    font-size: 20px;
+}
+ 
+.nav-pragrafh{
+     display: flex;
+    align-items: center;
+    width: 15%;
+ 
+}
+
+#navpera-1{
+      font-size: 17px;
+        
+}
+
+.container{
+    display: flex;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    width: 100% ;
+    height:390px;
+    flex-direction:row;
+    align-items:center;
+}
+
+.container-pera1{
+   display: flex;
+   justify-self:center;
+   align-items: center;
+   margin-left: 280px;
+}
+
+.conpera1{
+    font-size:48px;
+}
+.conpera2{
+    font-size:38px;
+}
+
+button
+{   border-radius: 20px;
+    margin-top:34px;
+    height: 30px;
+    width: 40%;
+    color: white;
+    background-color: rgb(52, 52, 121);
+}
+
+
+/* urtuieruiturituiruitur */
+
+.container2{
+    height: 290px;
+    width: 99%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.Box{
+    text-align: center;
+    height: 240px;
+    width: 255px;
+}
+
+#box1pera1{
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#box1pera2{
+    margin-top: 18px;
+    font-size: 0.8rem;
+}
+#box1per3{
+    font-size: 0.8rem;
+}
+
+#box1pera4{
+    margin-top: 7px;
+   margin-right:45px;
+}
+
+#Maind{
+     font-size: 0.8rem
+}
+/* gyffgfghfghfgfgffgfgfg */
+
+.footer-nav {
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+span{
+    margin-top: -10px;
+    font-size: 0.8rem
+}
+
+b{
+    font-size: 0.8rem
+}
+
+#footerend{
+font-size: 0.8rem
+}
